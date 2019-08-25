@@ -1,0 +1,6 @@
+错误:error: failed to push some refs t
+可以用git pull --rebase origin master将代码合并来解决
+git add .前目录下所有的文件添加到版本库中
+git commit -m message提交到版本库中
+git remote add origin git@github.com:mythmayor/MyGithubProject.git做关联的产库
+git push -u origin master提交到远程的github中
