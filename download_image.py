@@ -17,7 +17,7 @@ for i in range(0,19):
             imge_response=requests.get(imge_link).content
             with open('Images\\'+string+'.png','wb') as f:
                 f.write(imge_response)
-
+                print(i)
         except Exception as e:
             print(str(e))
 
